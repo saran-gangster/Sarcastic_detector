@@ -40,5 +40,11 @@ Probabilty:0.9322293996810913
 You: If you find me offensive. Then I suggest you quit finding me.
 This Sentence is Sarcastic
 Probabilty:0.8312952518463135
+You: You only live once, but if you do it right, once is enough.
+This Sentence is not Sarcastic
+Probabilty:0.9223993420600891
+You: Without music, life would be a mistake.
+This Sentence is not Sarcastic
+Probabilty:0.9322293996810913
 ```
 
