@@ -9,7 +9,7 @@ import os
 dataset_path = f"{os.getcwd()}\\dataset_csv.csv"
 if not os.path.exists(dataset_path):
   import wget
-	wget.download("https://raw.githubusercontent.com/surajr/SarcasmDetection/master/Data/dataset_csv.csv")
+  wget.download("https://raw.githubusercontent.com/surajr/SarcasmDetection/master/Data/dataset_csv.csv")
 
 sentences = []
 labels = []
@@ -45,9 +45,9 @@ def Detect(input_sequence):
     return f'This Sentence is not Sarcastic \nProbabilty:{np.amax(result)}'
 
 while True:
-	try:
-		User = input("You: ")
-		print(Detect(str(User)))
-	except KeyboardInterrupt:
-		print("\nBye")
-		quit()
+  try:
+    User = input("You: ")
+    print(Detect(str(User)))
+  except KeyboardInterrupt:
+    print("\nBye")
+    quit()
